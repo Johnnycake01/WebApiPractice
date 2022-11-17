@@ -9,7 +9,7 @@ using WebApiPractice.Model;
 namespace WebApiPractice.Migrations
 {
     [DbContext(typeof(AppDBContext))]
-    [Migration("20221117094536_InitialCreate")]
+    [Migration("20221117101927_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
