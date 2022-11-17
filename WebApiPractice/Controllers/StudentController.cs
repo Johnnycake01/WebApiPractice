@@ -19,7 +19,7 @@ namespace WebApiPractice.Controllers
         {
             this.studentREpository = studentREpository;
         }
-        [HttpGet("{search}")]
+        [HttpGet("{name}")]
         public async Task<ActionResult<IEnumerable<Student>>> Search(string name)
         {
             try
